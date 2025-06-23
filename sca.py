@@ -659,7 +659,7 @@ def stop_attack():
 
 def run_flask():
     """Запуск Flask сервера."""
-    app.run(host='0.0.0.0', port=5002, debug=False)
+    app.run(host='0.0.0.0', port=5000, debug=False)
 
 
 if __name__ == "__main__":
